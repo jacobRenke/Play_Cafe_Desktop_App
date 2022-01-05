@@ -8,3 +8,5 @@ C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\
 C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.csproj.CoreCompileInputs.cache
 C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.exe
 C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.pdb
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.Form2.resources
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.Form3.resources

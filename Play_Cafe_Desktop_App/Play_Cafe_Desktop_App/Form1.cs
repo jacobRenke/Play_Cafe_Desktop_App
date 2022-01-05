@@ -50,7 +50,7 @@ namespace Play_Cafe_Desktop_App
             else
                 subMenu.Visible = false;
         }
-        
+        #region MediaSubMenu
         //The following methods will give logic to my button's once clicked.
         private void btnMedia_Click(object sender, EventArgs e)
         {
@@ -59,9 +59,9 @@ namespace Play_Cafe_Desktop_App
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //Need to update this method once I have a purpose for the button. Be sure to rename everything.
+            openChildForm(new Form2());
             hideSubMenu();
-        }
+        } 
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -80,7 +80,8 @@ namespace Play_Cafe_Desktop_App
             //Need to update this method once I have a purpose for the button. Be sure to rename everything.
             hideSubMenu();
         }
-
+        #endregion
+        #region PlaylistSubMenu
         private void btnPlaylistManagement_Click(object sender, EventArgs e)
         {
             showSubMenu(panelPlaylistSubmenu);
@@ -109,7 +110,8 @@ namespace Play_Cafe_Desktop_App
             //Need to update this method once I have a purpose for the button. Be sure to rename everything.
             hideSubMenu();
         }
-
+        #endregion
+        #region ToolsSubMenu
         private void btnTools_Click(object sender, EventArgs e)
         {
             showSubMenu(panelToolsSubMenu);
@@ -138,10 +140,10 @@ namespace Play_Cafe_Desktop_App
             //Need to update this method once I have a purpose for the button. Be sure to rename everything.
             hideSubMenu();
         }
-
+        #endregion
         private void btnEqualizer_Click(object sender, EventArgs e)
         {
-            //Need to update this method once I have a purpose for the button. Be sure to rename everything.
+            openChildForm(new Form3());
             hideSubMenu();
         }
 
@@ -149,6 +151,29 @@ namespace Play_Cafe_Desktop_App
         {
             //Need to update this method once I have a purpose for the button. Be sure to rename everything.
             hideSubMenu();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        //Below is what allows us to change what is being displayed on the 'child' form...or the main Form display.
+        private Form activeForm = null;
+
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            panelChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+
         }
     }
 }
