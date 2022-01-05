@@ -1,0 +1,10 @@
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\bin\Debug\Play_Cafe_Desktop_App.exe.config
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\bin\Debug\Play_Cafe_Desktop_App.exe
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\bin\Debug\Play_Cafe_Desktop_App.pdb
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.csproj.AssemblyReference.cache
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.Form1.resources
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.Properties.Resources.resources
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.csproj.GenerateResource.cache
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.csproj.CoreCompileInputs.cache
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.exe
+C:\GitHub\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\Play_Cafe_Desktop_App\obj\Debug\Play_Cafe_Desktop_App.pdb
