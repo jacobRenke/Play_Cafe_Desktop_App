@@ -98,5 +98,32 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe Logo Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe Logo_150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe-logos.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe-logos_600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe-logos_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe-logos_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe-logos_transparent_350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Cafe-logos_white.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

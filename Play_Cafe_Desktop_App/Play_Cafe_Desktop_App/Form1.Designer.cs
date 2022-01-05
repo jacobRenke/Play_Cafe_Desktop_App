@@ -67,6 +67,7 @@ namespace Play_Cafe_Desktop_App
             // 
             this.panelSideMenu.AutoScroll = true;
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.panelSideMenu.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelSideMenu.Controls.Add(this.btnHelp);
             this.panelSideMenu.Controls.Add(this.btnEqualizer);
             this.panelSideMenu.Controls.Add(this.panelToolsSubMenu);
@@ -91,7 +92,7 @@ namespace Play_Cafe_Desktop_App
             this.btnHelp.Location = new System.Drawing.Point(0, 775);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnHelp.Size = new System.Drawing.Size(233, 45);
+            this.btnHelp.Size = new System.Drawing.Size(229, 45);
             this.btnHelp.TabIndex = 8;
             this.btnHelp.Text = "Help";
             this.btnHelp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -107,7 +108,7 @@ namespace Play_Cafe_Desktop_App
             this.btnEqualizer.Location = new System.Drawing.Point(0, 730);
             this.btnEqualizer.Name = "btnEqualizer";
             this.btnEqualizer.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnEqualizer.Size = new System.Drawing.Size(233, 45);
+            this.btnEqualizer.Size = new System.Drawing.Size(229, 45);
             this.btnEqualizer.TabIndex = 7;
             this.btnEqualizer.Text = "Equalizer";
             this.btnEqualizer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -124,7 +125,7 @@ namespace Play_Cafe_Desktop_App
             this.panelToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 565);
             this.panelToolsSubMenu.Name = "panelToolsSubMenu";
-            this.panelToolsSubMenu.Size = new System.Drawing.Size(233, 165);
+            this.panelToolsSubMenu.Size = new System.Drawing.Size(229, 165);
             this.panelToolsSubMenu.TabIndex = 6;
             // 
             // button11
@@ -136,7 +137,7 @@ namespace Play_Cafe_Desktop_App
             this.button11.Location = new System.Drawing.Point(0, 120);
             this.button11.Name = "button11";
             this.button11.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(233, 40);
+            this.button11.Size = new System.Drawing.Size(229, 40);
             this.button11.TabIndex = 3;
             this.button11.Text = "button11";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -152,7 +153,7 @@ namespace Play_Cafe_Desktop_App
             this.button12.Location = new System.Drawing.Point(0, 80);
             this.button12.Name = "button12";
             this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button12.Size = new System.Drawing.Size(233, 40);
+            this.button12.Size = new System.Drawing.Size(229, 40);
             this.button12.TabIndex = 2;
             this.button12.Text = "button12";
             this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -168,7 +169,7 @@ namespace Play_Cafe_Desktop_App
             this.button13.Location = new System.Drawing.Point(0, 40);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(233, 40);
+            this.button13.Size = new System.Drawing.Size(229, 40);
             this.button13.TabIndex = 1;
             this.button13.Text = "button13";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,7 +185,7 @@ namespace Play_Cafe_Desktop_App
             this.button14.Location = new System.Drawing.Point(0, 0);
             this.button14.Name = "button14";
             this.button14.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(233, 40);
+            this.button14.Size = new System.Drawing.Size(229, 40);
             this.button14.TabIndex = 0;
             this.button14.Text = "button14";
             this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,7 +201,7 @@ namespace Play_Cafe_Desktop_App
             this.btnTools.Location = new System.Drawing.Point(0, 520);
             this.btnTools.Name = "btnTools";
             this.btnTools.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnTools.Size = new System.Drawing.Size(233, 45);
+            this.btnTools.Size = new System.Drawing.Size(229, 45);
             this.btnTools.TabIndex = 5;
             this.btnTools.Text = "Tools";
             this.btnTools.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -217,7 +218,7 @@ namespace Play_Cafe_Desktop_App
             this.panelPlaylistSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelPlaylistSubmenu.Location = new System.Drawing.Point(0, 355);
             this.panelPlaylistSubmenu.Name = "panelPlaylistSubmenu";
-            this.panelPlaylistSubmenu.Size = new System.Drawing.Size(233, 165);
+            this.panelPlaylistSubmenu.Size = new System.Drawing.Size(229, 165);
             this.panelPlaylistSubmenu.TabIndex = 4;
             // 
             // button6
@@ -229,7 +230,7 @@ namespace Play_Cafe_Desktop_App
             this.button6.Location = new System.Drawing.Point(0, 120);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(233, 40);
+            this.button6.Size = new System.Drawing.Size(229, 40);
             this.button6.TabIndex = 3;
             this.button6.Text = "button6";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -245,7 +246,7 @@ namespace Play_Cafe_Desktop_App
             this.button7.Location = new System.Drawing.Point(0, 80);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(233, 40);
+            this.button7.Size = new System.Drawing.Size(229, 40);
             this.button7.TabIndex = 2;
             this.button7.Text = "button7";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,7 +262,7 @@ namespace Play_Cafe_Desktop_App
             this.button8.Location = new System.Drawing.Point(0, 40);
             this.button8.Name = "button8";
             this.button8.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(233, 40);
+            this.button8.Size = new System.Drawing.Size(229, 40);
             this.button8.TabIndex = 1;
             this.button8.Text = "button8";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -277,7 +278,7 @@ namespace Play_Cafe_Desktop_App
             this.button9.Location = new System.Drawing.Point(0, 0);
             this.button9.Name = "button9";
             this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(233, 40);
+            this.button9.Size = new System.Drawing.Size(229, 40);
             this.button9.TabIndex = 0;
             this.button9.Text = "button9";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -293,7 +294,7 @@ namespace Play_Cafe_Desktop_App
             this.btnPlaylistManagement.Location = new System.Drawing.Point(0, 310);
             this.btnPlaylistManagement.Name = "btnPlaylistManagement";
             this.btnPlaylistManagement.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnPlaylistManagement.Size = new System.Drawing.Size(233, 45);
+            this.btnPlaylistManagement.Size = new System.Drawing.Size(229, 45);
             this.btnPlaylistManagement.TabIndex = 3;
             this.btnPlaylistManagement.Text = "Playlist Management";
             this.btnPlaylistManagement.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -310,7 +311,7 @@ namespace Play_Cafe_Desktop_App
             this.panelMediaSubmenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMediaSubmenu.Location = new System.Drawing.Point(0, 145);
             this.panelMediaSubmenu.Name = "panelMediaSubmenu";
-            this.panelMediaSubmenu.Size = new System.Drawing.Size(233, 165);
+            this.panelMediaSubmenu.Size = new System.Drawing.Size(229, 165);
             this.panelMediaSubmenu.TabIndex = 2;
             // 
             // button5
@@ -322,7 +323,7 @@ namespace Play_Cafe_Desktop_App
             this.button5.Location = new System.Drawing.Point(0, 120);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(233, 40);
+            this.button5.Size = new System.Drawing.Size(229, 40);
             this.button5.TabIndex = 3;
             this.button5.Text = "button5";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -338,7 +339,7 @@ namespace Play_Cafe_Desktop_App
             this.button4.Location = new System.Drawing.Point(0, 80);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(233, 40);
+            this.button4.Size = new System.Drawing.Size(229, 40);
             this.button4.TabIndex = 2;
             this.button4.Text = "button4";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -354,7 +355,7 @@ namespace Play_Cafe_Desktop_App
             this.button3.Location = new System.Drawing.Point(0, 40);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(233, 40);
+            this.button3.Size = new System.Drawing.Size(229, 40);
             this.button3.TabIndex = 1;
             this.button3.Text = "button3";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -370,7 +371,7 @@ namespace Play_Cafe_Desktop_App
             this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(233, 40);
+            this.button2.Size = new System.Drawing.Size(229, 40);
             this.button2.TabIndex = 0;
             this.button2.Text = "button2";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -386,7 +387,7 @@ namespace Play_Cafe_Desktop_App
             this.btnMedia.Location = new System.Drawing.Point(0, 100);
             this.btnMedia.Name = "btnMedia";
             this.btnMedia.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnMedia.Size = new System.Drawing.Size(233, 45);
+            this.btnMedia.Size = new System.Drawing.Size(229, 45);
             this.btnMedia.TabIndex = 1;
             this.btnMedia.Text = "Media";
             this.btnMedia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -398,12 +399,12 @@ namespace Play_Cafe_Desktop_App
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(233, 100);
+            this.panelLogo.Size = new System.Drawing.Size(229, 100);
             this.panelLogo.TabIndex = 0;
             // 
             // panelPlayer
             // 
-            this.panelPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.panelPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.panelPlayer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelPlayer.Location = new System.Drawing.Point(250, 461);
             this.panelPlayer.Name = "panelPlayer";
@@ -413,6 +414,7 @@ namespace Play_Cafe_Desktop_App
             // panelChildForm
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(63)))), ((int)(((byte)(143)))));
+            this.panelChildForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelChildForm.Controls.Add(this.pictureBox1);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(250, 0);
@@ -424,10 +426,10 @@ namespace Play_Cafe_Desktop_App
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(160, 54);
+            this.pictureBox1.Image = global::Play_Cafe_Desktop_App.Properties.Resources.Play_Cafe_logos_600;
+            this.pictureBox1.Location = new System.Drawing.Point(44, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(350, 350);
+            this.pictureBox1.Size = new System.Drawing.Size(600, 600);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
